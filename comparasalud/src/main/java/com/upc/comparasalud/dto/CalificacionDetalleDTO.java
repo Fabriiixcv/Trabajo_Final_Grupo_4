@@ -1,0 +1,19 @@
+package com.upc.comparasalud.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.time.LocalDateTime;
+
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+public class CalificacionDetalleDTO {
+    private String nombreCliente;
+    private Integer puntuacion;
+    private String comentario;
+    private LocalDateTime fechaCreacion;
+}
